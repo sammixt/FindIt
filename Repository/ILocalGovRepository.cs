@@ -6,7 +6,7 @@ namespace Repository
     public interface ILocalGovRepository
     {
         IEnumerable<LocalGovt> GetAllLocalGovt();
-        LocalGovt GetLocalGovt(long Id);
-        IEnumerable<LocalGovt> GetLocalGovtByState(long Id);
+        LocalGovt GetLocalGovt(int Id);
+        IEnumerable<LocalGovt> GetLocalGovtByState(int Id);
     }
 }

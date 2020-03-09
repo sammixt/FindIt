@@ -6,6 +6,6 @@ namespace Repository
     public interface IStateRepository
     {
         IEnumerable<State> GetAllState();
-        State GetStateById(long Id);
+        State GetStateById(int Id);
     }
 }

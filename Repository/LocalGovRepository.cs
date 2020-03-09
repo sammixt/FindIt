@@ -30,7 +30,7 @@ namespace Repository
             }
         }
 
-        public IEnumerable<LocalGovt> GetLocalGovtByState(long Id)
+        public IEnumerable<LocalGovt> GetLocalGovtByState(int Id)
         {
             try
             {
@@ -43,7 +43,7 @@ namespace Repository
             }
         }
 
-        public LocalGovt GetLocalGovt(long Id)
+        public LocalGovt GetLocalGovt(int Id)
         {
             try
             {

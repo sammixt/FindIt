@@ -28,7 +28,7 @@ namespace Repository
             }
         }
 
-        public State GetStateById(long Id)
+        public State GetStateById(int Id)
         {
             try
             {
