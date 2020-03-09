@@ -6,7 +6,7 @@ namespace DataAccess
 {
     public class SeedLocalGovt
     {
-        public List<LocalGovt> AddSeedLocalGovt ()
+        public static List<LocalGovt> AddSeedLocalGovt ()
         {
             List<LocalGovt> localGovts = new List<LocalGovt>();
             localGovts.Add(new LocalGovt { StateId = 1, Name = "Aba North" });

@@ -1,0 +1,10 @@
+C:\Users\esc\source\repos\sammixt\FindIt\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\esc\source\repos\sammixt\FindIt\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\esc\source\repos\sammixt\FindIt\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+C:\Users\esc\source\repos\sammixt\FindIt\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\esc\source\repos\sammixt\FindIt\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\esc\source\repos\sammixt\FindIt\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\esc\source\repos\sammixt\FindIt\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\esc\source\repos\sammixt\FindIt\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\esc\source\repos\sammixt\FindIt\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\esc\source\repos\sammixt\FindIt\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\DataAccess\\DataAccess.csproj",
-        "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\esc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\esc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,18 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

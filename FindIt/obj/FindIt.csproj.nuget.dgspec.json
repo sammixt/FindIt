@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\esc\\source\\repos\\personal\\FindIt\\FindIt\\FindIt.csproj": {}
+    "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\FindIt\\FindIt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\esc\\source\\repos\\personal\\FindIt\\FindIt\\FindIt.csproj": {
+    "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\FindIt\\FindIt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\esc\\source\\repos\\personal\\FindIt\\FindIt\\FindIt.csproj",
+        "projectUniqueName": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\FindIt\\FindIt.csproj",
         "projectName": "FindIt",
-        "projectPath": "C:\\Users\\esc\\source\\repos\\personal\\FindIt\\FindIt\\FindIt.csproj",
+        "projectPath": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\FindIt\\FindIt.csproj",
         "packagesPath": "C:\\Users\\esc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\esc\\source\\repos\\personal\\FindIt\\FindIt\\obj\\",
+        "outputPath": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\FindIt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\esc\\AppData\\Roaming\\NuGet\\NuGet.Config",

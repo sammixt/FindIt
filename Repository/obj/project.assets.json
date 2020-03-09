@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\FindIt\\FindIt.csproj",
-      "projectName": "FindIt",
-      "projectPath": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\FindIt\\FindIt.csproj",
+      "projectUniqueName": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\Repository\\Repository.csproj",
+      "projectName": "Repository",
+      "projectPath": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\esc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\FindIt\\obj\\",
+      "outputPath": "C:\\Users\\esc\\source\\repos\\sammixt\\FindIt\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\esc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,9 +54,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

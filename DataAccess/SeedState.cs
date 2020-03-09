@@ -7,7 +7,7 @@ namespace DataAccess
 {
     public class SeedState
     {
-        public List<State> AddSeedState()
+        public static List<State> AddSeedState()
         {
             List<State> States = new List<State>();
             States.Add(new State { Name = "Abia" });
