@@ -1,18 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DataAccess
 {
     public class VerifiedInfo
     {
+        [Key]
         public long VerifyId { get; set; }
         public long MerchantId { get; set; }
-        public string EmailAddress { get; set; }
-        public string PhoneNumber { get; set; }
-        public string Address { get; set; }
-        public string BusinessName { get; set; }
+        public bool EmailAddress { get; set; }
+        public bool PhoneNumber { get; set; }
+        public bool Address { get; set; }
+        public bool BusinessName { get; set; }
+        [MaxLength(150)]
         public string VerifierName { get; set; }
-        public string DateVerified { get; set; }
+        public Nullable<DateTime> DateVerified { get; set; }
     }
 }

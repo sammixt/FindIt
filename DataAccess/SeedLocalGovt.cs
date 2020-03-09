@@ -783,6 +783,8 @@ namespace DataAccess
             localGovts.Add(new LocalGovt { StateId = 37, Name = "Talata Mafara" });
             localGovts.Add(new LocalGovt { StateId = 37, Name = "Chafe" });
             localGovts.Add(new LocalGovt { StateId = 37, Name = "Zurmi" });
+            int count = 1;
+            localGovts.ForEach(x  => x.Id = count++);
 
             return localGovts;
         }

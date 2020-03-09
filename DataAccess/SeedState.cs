@@ -48,6 +48,8 @@ namespace DataAccess
             States.Add(new State { Name = "Yobe" });
             States.Add(new State { Name = "Zamfara" });
 
+            int count = 1;
+            States.ForEach(x  => x.Id = count++);
             return States;
         }
     }
