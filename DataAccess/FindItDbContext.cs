@@ -11,6 +11,8 @@ namespace DataAccess
         public DbSet<ServiceSetup> ServiceSetups { get; set; }
         public DbSet<State> States { get; set; }
         public DbSet<VerifiedInfo> VerifiedInfos { get; set; }
+        public DbSet<Profession> Professions { get; set; }
+        public DbSet<ProfessionSetup> ProfessionSetUps { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
