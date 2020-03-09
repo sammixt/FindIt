@@ -124,3 +124,7 @@ C:\Users\esc\source\repos\sammixt\FindIt\FindIt\bin\Debug\netcoreapp3.1\DataAcce
 C:\Users\esc\source\repos\sammixt\FindIt\FindIt\bin\Debug\netcoreapp3.1\Repository.dll
 C:\Users\esc\source\repos\sammixt\FindIt\FindIt\bin\Debug\netcoreapp3.1\Repository.pdb
 C:\Users\esc\source\repos\sammixt\FindIt\FindIt\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\esc\source\repos\sammixt\FindIt\FindIt\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\esc\source\repos\sammixt\FindIt\FindIt\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\esc\source\repos\sammixt\FindIt\FindIt\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Users\esc\source\repos\sammixt\FindIt\FindIt\bin\Debug\netcoreapp3.1\DTO.pdb

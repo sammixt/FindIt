@@ -1,0 +1,8 @@
+C:\Users\esc\source\repos\sammixt\FindIt\DTO\bin\Debug\netcoreapp3.1\DTO.deps.json
+C:\Users\esc\source\repos\sammixt\FindIt\DTO\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Users\esc\source\repos\sammixt\FindIt\DTO\bin\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\esc\source\repos\sammixt\FindIt\DTO\obj\Debug\netcoreapp3.1\DTO.csprojAssemblyReference.cache
+C:\Users\esc\source\repos\sammixt\FindIt\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfoInputs.cache
+C:\Users\esc\source\repos\sammixt\FindIt\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
+C:\Users\esc\source\repos\sammixt\FindIt\DTO\obj\Debug\netcoreapp3.1\DTO.dll
+C:\Users\esc\source\repos\sammixt\FindIt\DTO\obj\Debug\netcoreapp3.1\DTO.pdb

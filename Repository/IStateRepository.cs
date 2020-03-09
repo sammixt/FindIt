@@ -5,7 +5,7 @@ namespace Repository
 {
     public interface IStateRepository
     {
-        IEnumerable<State> GetAllState();
-        State GetStateById(int Id);
+        IEnumerable<DTO.State> GetAllState();
+        DTO.State GetStateById(int Id);
     }
 }

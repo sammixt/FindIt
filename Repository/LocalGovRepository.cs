@@ -6,23 +6,30 @@ using System.Linq;
 
 namespace Repository
 {
-    public class LocalGovRepository : ILocalGovRepository
+    public class LocalGovRepository : MapperConfig, ILocalGovRepository
     {
         //Get all local govts 
         //Get local govt by local govt ID
         //Get local govt by state ID
         FindItDbContext dbContext;
+        //public IMapper mapper;
         public LocalGovRepository(FindItDbContext _dbContext)
         {
             dbContext = _dbContext;
+            //var config = new MapperConfiguration(cfg =>
+            //{
+            //    cfg.CreateMap<LocalGovt, DTO.LocalGovt>().ReverseMap();
+            //});
+            //mapper = config.CreateMapper();
         }
 
-        public IEnumerable<LocalGovt> GetAllLocalGovt()
+        public IEnumerable<DTO.LocalGovt> GetAllLocalGovt()
         {
             try
             {
                 var localGov = dbContext.LocalGovts.ToList();
-                return localGov;
+                var dto = mapper.Map<List<LocalGovt>, List<DTO.LocalGovt>>(localGov);
+                return dto;
             }
             catch (Exception ex)
             {
@@ -30,12 +37,13 @@ namespace Repository
             }
         }
 
-        public IEnumerable<LocalGovt> GetLocalGovtByState(int Id)
+        public IEnumerable<DTO.LocalGovt> GetLocalGovtByState(int Id)
         {
             try
             {
                 var localGov = dbContext.LocalGovts.Where(m => m.StateId == Id).ToList();
-                return localGov;
+                var dto = mapper.Map<List<LocalGovt>, List<DTO.LocalGovt>>(localGov);
+                return dto;
             }
             catch (Exception ex)
             {
@@ -43,12 +51,13 @@ namespace Repository
             }
         }
 
-        public LocalGovt GetLocalGovt(int Id)
+        public DTO.LocalGovt GetLocalGovt(int Id)
         {
             try
             {
                 var localGov = dbContext.LocalGovts.Find(Id);
-                return localGov;
+                var dto = mapper.Map<LocalGovt, DTO.LocalGovt>(localGov);
+                return dto;
             }
             catch (Exception ex)
             {

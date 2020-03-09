@@ -9,3 +9,5 @@ C:\Users\esc\source\repos\sammixt\FindIt\Repository\obj\Debug\netcoreapp3.1\Repo
 C:\Users\esc\source\repos\sammixt\FindIt\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
 C:\Users\esc\source\repos\sammixt\FindIt\Repository\obj\Debug\netcoreapp3.1\Repository.dll
 C:\Users\esc\source\repos\sammixt\FindIt\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\esc\source\repos\sammixt\FindIt\Repository\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Users\esc\source\repos\sammixt\FindIt\Repository\bin\Debug\netcoreapp3.1\DTO.pdb
