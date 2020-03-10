@@ -4,5 +4,6 @@
     {
         ILocalGovRepository GovRepository { get; }
         IStateRepository StateRepository { get; }
+        IMerchantRepository MerchantRepo { get;  }
     }
 }

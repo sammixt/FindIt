@@ -15,6 +15,8 @@ namespace Repository
             {
                 cfg.CreateMap<LocalGovt, DTO.LocalGovt>().ReverseMap();
                 cfg.CreateMap<State, DTO.State>().ReverseMap();
+                cfg.CreateMap<Merchant, DTO.Merchant>().ReverseMap();
+                cfg.CreateMap<VerifiedInfo, DTO.VerifiedInfo>().ReverseMap();
             });
             mapper = config.CreateMapper();
         }

@@ -10,6 +10,7 @@ namespace Repository
         FindItDbContext findItDbContext;
         ILocalGovRepository govRepository;
         IStateRepository stateRepository;
+        IMerchantRepository merchantRepository;
 
         public RepositoryWrapper()
         {
@@ -36,6 +37,18 @@ namespace Repository
                     stateRepository = new StateRepository(findItDbContext);
                 }
                 return stateRepository;
+            }
+        }
+
+        public IMerchantRepository MerchantRepo
+        {
+            get
+            {
+                if (merchantRepository == null)
+                {
+                    merchantRepository = new MerchantRepository(findItDbContext);
+                }
+                return merchantRepository;
             }
         }
 
