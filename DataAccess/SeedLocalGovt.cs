@@ -6,7 +6,7 @@ namespace DataAccess
 {
     public class SeedLocalGovt
     {
-        public static List<LocalGovt> AddSeedLocalGovt ()
+        public static List<LocalGovt> AddSeedLocalGovt()
         {
             List<LocalGovt> localGovts = new List<LocalGovt>();
             localGovts.Add(new LocalGovt { StateId = 1, Name = "Aba North" });
@@ -784,7 +784,7 @@ namespace DataAccess
             localGovts.Add(new LocalGovt { StateId = 37, Name = "Chafe" });
             localGovts.Add(new LocalGovt { StateId = 37, Name = "Zurmi" });
             int count = 1;
-            localGovts.ForEach(x  => x.Id = count++);
+            localGovts.ForEach(x => x.Id = count++);
 
             return localGovts;
         }
